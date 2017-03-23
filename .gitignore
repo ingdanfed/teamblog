@@ -4,9 +4,9 @@ uto detect text files and perform LF normalization
 # Custom for Visual Studio
 *.cs     diff=csharp
 
-# /node_modules
-# /.deploy_git
-# /public
+node_modules/
+.deploy_git/
+public/
 
 # Standard to msysgit
 *.doc	 diff=astextplain

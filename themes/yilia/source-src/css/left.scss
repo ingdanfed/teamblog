@@ -85,10 +85,11 @@
 			border-radius: 300px;
 			width: 128px;
 			height: 128px;
+			padding: 1px;
 			margin: 0 auto;
 			position: relative;
 			overflow: hidden;
-			background: #88acdb;
+			background: #ccc;
 			-webkit-transition: all 0.2s ease-in;
 			display: -webkit-box;
 			-webkit-box-orient: horizontal;
@@ -96,6 +97,7 @@
 			-webkit-box-align: center;
 			text-align: center;
 			img{
+				display: block;
 				border-radius: 300px;
 				opacity: 1;
 				-webkit-transition: all 0.2s ease-in;
@@ -108,9 +110,8 @@
 		}
 		.header-author{
 			text-align: center;
-			margin: 0.67em 0;
-			font-family: Roboto, "Roboto", serif;
-			font-size: 30px;
+			margin: 0.2em 0;
+			font-size: 40px;
 			transition: 0.3s;
 		}
 	}
